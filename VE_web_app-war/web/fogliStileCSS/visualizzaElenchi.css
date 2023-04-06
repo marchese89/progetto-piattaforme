@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-ott-2014, 4.54.16
+    Author     : Antonio Giovanni
+*/
+
+div#elenco {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow: 10px 10px 15px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.75);
+        *background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#2D2D2F));
+	*background: -webkit-linear-gradient(top,  #FFFFFF,  #2D2D2F);
+	*background: -moz-linear-gradient(top,  #FFFFFF,  #2D2D2F);
+	*background: -ms-linear-gradient(top,  #FFFFFF,  #2D2D2F);
+	*background: -o-linear-gradient(top,  #FFFFFF,  #2D2D2F);
+	z-index:1000;
+	color:#fff;
+	*text-shadow:1px 1px 1px #fff;
+	font-size:14px;
+	*border:1px solid #E6260B;
+	padding: 15px;	
+}
